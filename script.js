@@ -160,7 +160,7 @@ btnDesencriptar.addEventListener('click', () => {
   resultadoDes.textContent = final.join("");
 });
 
-/* === INVERSO MODULAR === */
+/* === INVERSO MODULAR == */
 function inversoModulo(a, m) {
   a = (a % m + m) % m;
   for (let x = 1; x < m; x++) {
